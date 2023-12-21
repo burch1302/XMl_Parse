@@ -1,0 +1,47 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Tariffs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Tariff" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string"/>
+                            <xs:element name="OperatorName" type="xs:string"/>
+                            <xs:element name="Payroll" type="xs:int"/>
+                            <xs:element name="SmsPrice" type="xs:double"/>
+                            
+                            <xs:element name="CallPrices">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="CallPrice">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="CallPrice" type="xs:double"/>
+                                                    <xs:element name="Offline" type="xs:double"/>
+                                                    <xs:element name="OnLandlines" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            
+                            <xs:element name="Parameters">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="FavNumber" type="xs:string"/>
+                                        <xs:element name="TariffType" type="xs:string"/>
+                                        <xs:element name="ConnectionFee" type="xs:double"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

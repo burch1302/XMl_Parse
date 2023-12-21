@@ -1,0 +1,34 @@
+<Tariffs>
+    <Tariff>
+        <Name>SylaZvyazku</Name>
+        <OperatorName>Vodafone</OperatorName>
+        <Payroll>400</Payroll>
+        <SmsPrice>0.10</SmsPrice>
+        <CallPrice>
+                <CallCoast>0.5</CallCoast>
+                <Offline>0.25</Offline>
+                <OnLandlines>0.15</OnLandlines>
+        </CallPrice>
+        <Parameters>
+            <FavNumber>5</FavNumber>
+            <TariffType>12-sec</TariffType>
+            <ConnectionFee>5.0</ConnectionFee>
+        </Parameters>
+    </Tariff>
+    <Tariff>
+        <Name>Econom</Name>
+        <OperatorName>KyivStar</OperatorName>
+        <Payroll>100</Payroll>
+        <SmsPrice>0.05</SmsPrice>
+        <CallPrice>
+                <CallCoast>0.1</CallCoast>
+                <Offline>0.2</Offline>
+                <OnLandlines>0.15</OnLandlines>
+        </CallPrice>
+        <Parameters>
+            <FavNumber>5</FavNumber>
+            <TariffType>minute</TariffType>
+            <ConnectionFee>5.0</ConnectionFee>
+        </Parameters>
+    </Tariff>
+</Tariffs>

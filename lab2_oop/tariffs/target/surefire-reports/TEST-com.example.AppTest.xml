@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\burch\OneDrive\Рабочий стол\Прога в унике\OOP_tasks\lab2_oop\tariffs\target\test-classes;C:\Users\burch\OneDrive\Рабочий стол\Прога в унике\OOP_tasks\lab2_oop\tariffs\target\classes;C:\Users\burch\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\burch\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="user.country.format" value="UA"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\burch\AppData\Local\Temp\surefire1441754928119529820\surefirebooter-20231205110322218_3.jar C:\Users\burch\AppData\Local\Temp\surefire1441754928119529820 2023-12-05T11-03-22_034-jvmRun1 surefire-20231205110322218_1tmp surefire_0-20231205110322218_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\burch\OneDrive\Рабочий стол\Прога в унике\OOP_tasks\lab2_oop\tariffs\target\test-classes;C:\Users\burch\OneDrive\Рабочий стол\Прога в унике\OOP_tasks\lab2_oop\tariffs\target\classes;C:\Users\burch\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\burch\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\burch"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\burch\OneDrive\Рабочий стол\Прога в унике\OOP_tasks\lab2_oop\tariffs"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\burch\AppData\Local\Temp\surefire1441754928119529820\surefirebooter-20231205110322218_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+1"/>
+    <property name="user.name" value="burch"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
+    <property name="localRepository" value="C:\Users\burch\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\burch\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="C:\Users\burch\OneDrive\Рабочий стол\Прога в унике\OOP_tasks\lab2_oop\tariffs"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Ruby32-x64\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C;C:\Program Files\Go\bin;С:\Program Files\maven\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Ruby31-x64\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\burch\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\burch\AppData\Local\Programs\Python\Python311\;C:\Users\burch\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\burch\AppData\Local\GitHubDesktop\bin;C:\Users\burch\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\burch\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.1\bin;;C:\Users\burch\go\bin;C:\Program Files\maven\bin;C:\Users\burch\AppData\Roaming\npm;C:\Users\burch\AppData\Local\Yarn\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.example.AppTest" time="0.002"/>
+</testsuite>
